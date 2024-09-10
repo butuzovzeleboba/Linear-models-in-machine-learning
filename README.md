@@ -1,96 +1,45 @@
 # Project Overview
-As HR analysts at "Rabota s Zabotoy," we assist businesses in optimizing their personnel management. Companies provide us with data, and we offer strategies to prevent financial losses and employee turnover. Machine learning is a valuable tool in this process, enabling us to respond more quickly and accurately to business queries.
+Overview
+I work at an IT company that takes on custom machine learning projects. A farmer from "Free Meadow" wants to buy a heifer to expand his herd and has contracted with "EcoFarm". He demands high-quality milk (at least 6000 kg per year) and asks us to develop a model for objective cow evaluation. "EcoFarm" will provide data on their cows.
 
 Objectives
-Develop a model to predict employee satisfaction levels based on client data.
-
-Build a model to forecast employee turnover based on client data.
-
-Importance to Business
-Employee Satisfaction: Predicting satisfaction helps in retaining employees, as job satisfaction directly impacts turnover.
-
-Turnover Prediction: Anticipating employee departures is crucial for HR analytics, as unexpected resignations, especially of key personnel, pose risks to the company.
-
-Data Overview
-Employee Data: Includes performance metrics, engagement scores, tenure, and other relevant factors.
-
-Turnover Data: Historical records of employee departures, reasons for leaving, and exit interviews.
+1. Develop a machine learning model to predict the milk yield and quality of heifers.
+2. Ensure the model helps the farmer make informed decisions about purchasing cows.
+3. Provide practical recommendations for managing the herd and improving milk production.
 
 Methodology
-Task 1: Employee Satisfaction Prediction Model
-Data Collection: Gather comprehensive data on employee satisfaction from the client.
+- Data Collection: Gather comprehensive data on the cows, including their milk yield, quality metrics, and other relevant features.
+- Data Analysis: Use statistical methods and data visualization tools to identify trends and anomalies in the data.
+- Model Development: Train a machine learning model to predict milk yield and quality based on the collected data.
+- Hypothesis Testing: Apply hypothesis testing techniques to validate assumptions about the factors influencing milk production.
 
-Data Preprocessing: Clean and prepare the data for analysis, handling missing values and outliers.
-
-Feature Engineering: Create relevant features that could influence employee satisfaction.
-
-Model Development: Build and train machine learning models to predict satisfaction levels.
-
-Model Evaluation: Assess model performance using appropriate metrics and validation techniques.
-
-Task 2: Employee Turnover Prediction Model
-Data Collection: Gather comprehensive data on employee turnover from the client.
-
-Data Preprocessing: Clean and prepare the data for analysis, handling missing values and outliers.
-
-Feature Engineering: Create relevant features that could influence the likelihood of turnover.
-
-Model Development: Build and train machine learning models to predict the probability of employee turnover.
-
-Model Evaluation: Assess model performance using appropriate metrics and validation techniques.
-
-Expected Outcomes
-Enhanced Retention Strategies: By understanding factors that influence satisfaction and turnover, businesses can implement targeted retention strategies.
-
-Risk Mitigation: Early prediction of turnover allows for proactive measures to minimize the impact of employee departures.
+Expected Results
+1. Improved Farm Management: By understanding the factors that influence milk yield and quality, the farmer can make better decisions about herd management.
+2. Optimized Purchasing Decisions: The model will help the farmer select the best heifers for purchase, ensuring they meet the required milk production standards.
+3. Strategic Growth: Insights from this analysis will inform business decisions, potentially leading to improved farm efficiency and growth.
 
 Conclusion
-These machine learning models will empower "Rabota s Zabotoy" to provide actionable insights to businesses, helping them to manage their workforce more effectively. By predicting employee satisfaction and turnover, companies can take preemptive steps to retain valuable employees and mitigate the risks associated with turnover.
+This analysis will serve as the foundation for improving the "Free Meadow" dairy farm's operations, ensuring its competitiveness and alignment with the farmer's goals. By leveraging data-driven insights, we aim to help "Free Meadow" achieve sustainable growth and enhance milk production quality.
 # Обзор проекта
-HR-аналитики компании «Работа с заботой» помогают бизнесу оптимизировать управление персоналом. Компании предоставляют нам данные, и мы предлагаем стратегии для предотвращения финансовых потерь и оттока сотрудников. Машинное обучение является ценным инструментом в этом процессе, позволяя нам быстрее и точнее отвечать на запросы бизнеса.
+
+Обзор
+Я работаю в IT-компании, выполняющей проекты по машинному обучению. Фермер из "Вольного луга" хочет купить телку для расширения стада и заключил контракт с "ЭкоФермой". Он требует высокого качества молока (не менее 6000 кг в год) и просит нас разработать модель для объективной оценки коров. "ЭкоФерма" предоставит данные о своих коровах.
 
 Цели
-Разработать модель для прогнозирования уровня удовлетворенности сотрудников на основе данных клиента.
-
-Построить модель для предсказания увольнения сотрудников на основе данных клиента.
-
-Важность для бизнеса
-Удовлетворенность сотрудников: Прогнозирование удовлетворенности помогает в удержании сотрудников, так как удовлетворенность работой напрямую влияет на отток.
-
-Прогнозирование оттока: Предсказание увольнений важно для HR-аналитики, так как неожиданные увольнения, особенно ключевых сотрудников, несут риски для компании.
-
-Обзор данных
-Данные о сотрудниках: Включают метрики производительности, оценки вовлеченности, стаж и другие релевантные факторы.
-
-Данные об оттоке: Исторические записи об увольнениях сотрудников, причины ухода и выходные интервью.
+1. Разработать модель машинного обучения для прогнозирования удоя и качества молока телок.
+2. Обеспечить, чтобы модель помогала фермеру принимать обоснованные решения о покупке коров.
+3. Предоставить практические рекомендации по управлению стадом и улучшению производства молока.
 
 Методология
-Задача 1: Модель прогнозирования удовлетворенности сотрудников
-Сбор данных: Собирать полные данные об удовлетворенности сотрудников от клиента.
-
-Предварительная обработка данных: Очищать и подготавливать данные для анализа, обрабатывая пропуски и выбросы.
-
-Инженерные признаки: Создавать релевантные признаки, которые могут влиять на удовлетворенность сотрудников.
-
-Разработка модели: Строить и обучать модели машинного обучения для прогнозирования уровня удовлетворенности.
-
-Оценка модели: Оценивать производительность модели с использованием подходящих метрик и методов валидации.
-
-Задача 2: Модель прогнозирования оттока сотрудников
-Сбор данных: Собирать полные данные об оттоке сотрудников от клиента.
-
-Предварительная обработка данных: Очищать и подготавливать данные для анализа, обрабатывая пропуски и выбросы.
-
-Инженерные признаки: Создавать релевантные признаки, которые могут влиять на вероятность оттока.
-
-Разработка модели: Строить и обучать модели машинного обучения для прогнозирования вероятности увольнения сотрудников.
-
-Оценка модели: Оценивать производительность модели с использованием подходящих метрик и методов валидации.
+- Сбор данных: Собирать полные данные о коровах, включая их удой, показатели качества молока и другие релевантные характеристики.
+- Анализ данных: Использовать статистические методы и инструменты визуализации данных для выявления трендов и аномалий.
+- Разработка модели: Обучить модель машинного обучения для прогнозирования удоя и качества молока на основе собранных данных.
+- Проверка гипотез: Применять техники проверки гипотез для подтверждения предположений о факторах, влияющих на производство молока.
 
 Ожидаемые результаты
-Улучшенные стратегии удержания: Понимая факторы, влияющие на удовлетворенность и отток, компании могут внедрять целевые стратегии удержания.
-
-Снижение рисков: Раннее предсказание оттока позволяет предпринимать превентивные меры для минимизации влияния увольнений сотрудников.
+1. Улучшенное управление фермой: Понимая факторы, влияющие на удой и качество молока, фермер может принимать более обоснованные решения по управлению стадом.
+2. Оптимизированные решения о покупке: Модель поможет фермеру выбирать лучших телок для покупки, гарантируя, что они будут соответствовать требуемым стандартам производства молока.
+3. Стратегический рост: Инсайты из этого анализа будут информировать бизнес-решения, потенциально ведущие к улучшению эффективности фермы и её росту.
 
 Заключение
-Эти модели машинного обучения позволят компании «Работа с заботой» предоставлять действенные инсайты бизнесу, помогая им более эффективно управлять своим персоналом. Прогнозируя удовлетворенность сотрудников и отток, компании могут предпринимать превентивные шаги для удержания ценных сотрудников и снижения рисков, связанных с оттоком.
+Этот анализ будет служить основой для улучшения операций молочного хозяйства "Вольный луг", обеспечивая его конкурентоспособность и соответствие целям фермера. Используя инсайты, основанные на данных, мы стремимся помочь "Вольному лугу" достичь устойчивого роста и повышения качества производства молока.
